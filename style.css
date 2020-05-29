@@ -780,6 +780,7 @@ Project Page */
 .box-3 h4{
     margin-top: -20px;
     color: #77777E;
+    font-size: 1.3rem;
 }
 
 .social-icons{
@@ -843,6 +844,11 @@ Project Page */
 .copyright{
     text-align: center;
     padding: 5%;
+}
+
+.copyright h6{
+    font-size: 0.9rem;
+
 }
 /* Media queries */
 
