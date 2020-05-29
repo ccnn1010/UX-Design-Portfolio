@@ -71,6 +71,7 @@ body{
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color:  #85D7CB;
     font-weight: bold;
+  /*   background:linear-gradient(#85D7CB,#85D7CB) bottom/100% 4px no-repeat;  */
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #85D7CB;
@@ -80,14 +81,14 @@ body{
     margin-left:30px;
     margin-right:30px;
   } */
-  .active {
-      color: #85D7CB;
-      font-weight: bold;
-    /* background:linear-gradient(#85D7CB,#85D7CB) bottom/100% 4px no-repeat; */
-  }
+/* .active {
+    color: #85D7CB;
+    font-weight: bold;
+    background:linear-gradient(#85D7CB,#85D7CB) bottom/100% 4px no-repeat; 
+  } */
   
 .logo{
-    margin-left: 15px;
+    margin-left: 12px;
     border: none;
     width:55px; 
     height:50px; 
@@ -468,8 +469,8 @@ Project Page */
     text-align: start;
     font-size: 1.2rem;
     /* margin-top: 50px; */
-    line-height: 1.6rem;
-    margin-bottom: 20px;
+    line-height: 1.8rem;
+    margin-bottom: 25px;
     /* margin-bottom: -10px; */
 }
 
@@ -497,15 +498,18 @@ Project Page */
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
-   /*  box-shadow: 2px 2px 2px rgb(202, 202, 202); */
+    box-shadow: 0px 8px 15px rgba(80, 78, 78, 0.3);
+    transition: all 0.3s ease 0s;
 }
 
 .button1:hover {
     color:white;
-    background-color: #C0C0C9;
+    background-color: #FFB1C0;
     border-color: transparent;
     text-decoration: none;
-}
+ /*    box-shadow: 0px 15px 20px rgba(255, 177, 193, 0.692);
+    transform: translateY(-7px); */
+    }
 
 
 .button2{
@@ -518,24 +522,25 @@ Project Page */
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
-   /*  box-shadow: 2px 2px 2px rgb(202, 202, 202); */
+    box-shadow: 0px 8px 15px rgba(80, 78, 78, 0.3);
+    transition: all 0.3s ease 0s;
 }
 
 .button2:hover {
     color:white;
-    background-color: #C0C0C9;
+    background-color: #85D7CB; 
     border-color: transparent;
-    text-decoration: none;
+    text-decoration: none; 
+  /*   box-shadow: 0px 15px 20px rgba(133, 215, 203, 0.712);
+    transform: translateY(-7px); */
 }
-
-
 
 
 .projects-image{ 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 35px;
 } 
 
 
@@ -636,13 +641,18 @@ Project Page */
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
+    box-shadow: 0px 8px 15px rgba(80, 78, 78, 0.3);
+    transition: all 0.3s ease 0s;
 }
 
 .button3:hover {
     color:white;
-    background-color: #C0C0C9;
+    background-color: #FFB1C0;
+   /*  background-color: #C0C0C9; */
     border-color: transparent;
     text-decoration: none;
+  /*   box-shadow: 0px 15px 20px rgba(255, 177, 193, 0.692);
+    transform: translateY(-7px); */
 }
 
 
@@ -725,13 +735,17 @@ Project Page */
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
+    box-shadow: 0px 8px 15px rgba(80, 78, 78, 0.3);
+    transition: all 0.3s ease 0s;
 }
 
 .button4:hover {
     color:white;
-    background-color: #C0C0C9;
+    background-color: #5AD7C4;
     border-color: transparent;
     text-decoration: none;
+ /*    box-shadow: 0px 15px 20px rgba(90, 215, 196, 0.842) ;
+    transform: translateY(-7px); */
 }
 
 
@@ -868,7 +882,7 @@ Project Page */
     }
     #project1-2 p {
         font-size: 1rem;
-        line-height: 1.5rem; 
+     /*    line-height: 1.5rem;  */
     }
     .projectButton a {
        /*  margin-top: 15px;
@@ -877,8 +891,8 @@ Project Page */
         margin-left: 20px;
     }
     .projects-image img {
-        max-width: 130px;
-        max-height: 130px;
+        max-width: 150px;
+        max-height: 150px;
        /*  margin-top: 12px; */
     }
     .button1 {
@@ -887,6 +901,7 @@ Project Page */
     .button2 {
         font-size: 1rem;
     }
+
     .button3 {
         font-size: 1rem;
     }
@@ -1041,15 +1056,40 @@ Project Page */
 .button1 {
     padding: 15px;
 }
+.button1:hover {
+    box-shadow: 0px 15px 20px rgba(255, 177, 193, 0.692);
+    transform: translateY(-7px);
+    }
+
 .button2 {
     padding: 15px;
 }
+.button2:hover {
+    box-shadow: 0px 15px 20px rgba(133, 215, 203, 0.712);
+    transform: translateY(-7px);
+}
+
 .button3 {
     padding: 15px;
 }
+
+.button3:hover {
+    box-shadow: 0px 15px 20px rgba(255, 177, 193, 0.692);
+    transform: translateY(-7px);
+}
+
 .button4 {
     padding: 15px;
 }
+
+.button4:hover {
+    box-shadow: 0px 15px 20px rgba(90, 215, 196, 0.842) ;
+    transform: translateY(-7px);
+}
+
+
+
+
 .projectButton-projects {
     margin-top: 50px;
 }
@@ -1061,10 +1101,11 @@ Project Page */
     max-width: 400px;
     max-height: 400px;
 }
-.active {
-    background:linear-gradient(#85D7CB,#85D7CB) bottom/100% 4px no-repeat;
-  }
-  .navbar-nav > li {
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    background:linear-gradient(#85D7CB,#85D7CB) bottom/100% 4px no-repeat; 
+}
+
+.navbar-nav > li {
     margin-left: 30px;
     margin-right: 30px;
 }
