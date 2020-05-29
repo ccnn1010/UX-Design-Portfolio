@@ -172,14 +172,12 @@ body{
 .scroll-down{
     /*   border: 1px solid red; */
     display:none;
-    margin-top: 50px; 
   }  
-
+/* 
   .scroll-down h4{
     color: #77777E;
-  /*   font-weight: bold; */
   font-size: 1.5rem;
-  }  
+  }   */
 
 
 
@@ -409,7 +407,7 @@ body{
 
 
 
-@media (min-width:768px)  {
+/* @media (min-width:768px)  {
 
     .box-4 h2{
         font-size: 2.5rem;
@@ -434,7 +432,7 @@ body{
     color: rgb(119, 119, 126);
     font-size: 1.2rem;
     
-}
+} */
 
 
 
@@ -453,15 +451,13 @@ Project Page */
 }
 
 
-#project1-2 h1{
-      /*   text-align: start; */
-        margin-top: 40px;
-        margin-bottom: 20px;
-        font-weight: bold;
-        color: #525253;
-        font-size: 2.2rem;
-   /*      text-decoration: underline wavy; 
-        text-decoration-color: #85D7CB; */
+#project1-2 h1 {
+    /* text-align: start; */
+    margin-top: 47px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #525253;
+    font-size: 2.2rem;
 }
 
 #project1-2 p {
@@ -954,13 +950,22 @@ Project Page */
 
   #home p{
     text-align: start;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 2.2rem;
+    line-height: 2rem;
     margin-top: 20px;
     margin-bottom:0;
   }
+  .scroll-down{
+    display:block;
+    margin-top:100px;
+  } 
+  .scroll-down h4{
+    color: #77777E;
+    font-size: 1.5rem;
+  }  
+  
 
   .fullstop {
     font-size: 4rem;
@@ -970,8 +975,8 @@ Project Page */
     margin-top: 120px;
 }
 .home-image img {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 280px;
+    max-height: 280px;
 }
 .design-thinking {
     padding-left: 10%;
@@ -995,14 +1000,16 @@ Project Page */
     
 
     #project1-2 h1{
-          font-size: 3rem;
-          padding-left: 15%;
-          margin-top:0;
+        font-size: 3rem;
+        padding-left: 5%;
+        padding-right: 5%;
+       /*  margin-top:0; */
     }
   
     #project1-2 p{
       font-size: 1.3rem;
-      padding-left: 15%;
+      padding-left: 5%;
+      padding-right: 5%;
       line-height: 2.2rem;
     }
 
@@ -1038,15 +1045,20 @@ Project Page */
 } 
 
 
-.box-7 p{
+/* .box-7 p{
     margin-top: 25px; 
     padding-right: 15%;
+} */
+.box-7 p{
+    margin-top: 25px; 
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 #contact h2 {
     padding-right: 20%;
     padding-left: 20%;
-    font-size: 2rem;137
+    font-size: 2rem;
 }
 .copyright{
     text-align: right;
@@ -1054,8 +1066,8 @@ Project Page */
     font-size: 1.1rem;
 }
 .projects-image img {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 280px;
+    max-height: 280px;
    /*  margin-top: 70px; */
 }
 
@@ -1122,21 +1134,44 @@ Project Page */
 }
 
 
-@media  (min-width:769px) and (max-height: 878px){
-    .active {
-        color:#85D7CB;
-        font-weight: bold;
-        background: none;
-      }
-      
+@media  (max-width:991px){
+    
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#85D7CB;
+    font-weight: bold;
+    background: none;
+}
 .scroll-down{
-    display:block;
-  } 
-
-  .home-image img {
+    display:none;
+}
+/* .home-image {
+    margin-top: 70px;
+}
+       */
+/* .scroll-down{
+    display:none;
+  }
+ /*  .home-image img {
     max-width: 250px;
     max-height: 250px;
+} */
+/* .projects-image img {
+    max-width: 300px;
+    max-height: 300px;
+   
 }
+#project1-2 h1 {
+    font-size: 3rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+}
+#project1-2 p {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2.2rem;
+} */
+
   /* #home h1 {
     text-align: center;
     font-size: 3rem;
