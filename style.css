@@ -26,6 +26,7 @@ body{
 .navbar{
     background-color: white;
    /*  color:#525253; */
+   border-bottom:1px solid rgba(224, 230, 229, 0.486);
 }
 
 .nav-link{
@@ -404,6 +405,14 @@ body{
 }
 
 
+#about-us p{
+    margin-top: 25px; 
+    /* text-align: start; */
+   /*  padding-right: 5%;
+    padding-left: 5%; */
+    font-size:1.3rem;
+    color: #77777E;
+}
 
 
 
@@ -554,6 +563,8 @@ Project Page */
     transform: scale(1.1); 
   }
 
+
+ 
 
 
 
@@ -847,24 +858,203 @@ Project Page */
 
 
 /* project 1 page */
-
-#project1-home{
-    background-color: rgba(255, 212, 220, 0.712);
+#project-home{
+  /*   background-color: rgba(255, 212, 220, 0.712); */
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100%;
     width: 100%;
+    height: 100vh;
 }
+
+
+#project-home h1 {
+    /* text-align: start; */
+    margin-top: 47px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #525253;
+    font-size: 2.5rem;
+}
+
+#project-home h3 {
+    color: #FFB1C0;
+    font-weight: bold;
+    text-align: start;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+#project-home h6 {
+    color: rgb(119, 119, 126);
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+#project-home p {
+    color: rgb(119, 119, 126);
+    text-align: start;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+}
+
+
+#project1-images{
+    background-color: #EEF1F1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*  height:100%;
+    width: 100%; */
+}
+
+#project1-introduction{
+    display: flex;
+    justify-content: center;
+   /*  align-items: center; */
+    /* height:100%;
+    width: 100%; */
+}
+
+#project1-research{
+    background-color: #EEF1F1; 
+     display: flex;
+/*   justify-content: center; */
+ /*   align-items: center;  */
+   /*   height:100%;
+     width: 100%; */
+   /*   padding-right: 20%;
+     padding-left: 20%; */
+ }
+
+
+ 
+ .project1-brief h1{
+    color: #525253;
+   /*  font-size: 1.8rem; */
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 50px;
+    margin-top: 20px;
+   /*  line-height: 30px; */
+}
+
+
+.project1-brief p{
+   /*  border: 1px solid red;  */
+    font-size: 1.2rem;
+    text-align: left; 
+    padding: 0;
+   /*  padding-top: 20px; */
+}
+
+
+.project1-brief .heading{
+    font-weight: bold;
+    color: #525253;
+    /* text-decoration: underline; */
+}
+
+.project1-brief li{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+
+
+.project1-responsibilities h3{
+    color: #525253;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-top: 50px;
+
+}
+
+.project1-responsibilities li{
+    color: #525253;
+    font-size: 1.2rem;
+}
+
+.project1-brief ul{
+    padding: 0;
+}
+
 
 /* project 2 page */
 #project2-home{
-    background-color: rgba(133, 215, 203, 0.6);
+   /*   background-color: rgba(255, 212, 220, 0.712);  */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+  }
+  
+  
+  #project2-home h1 {
+      /* text-align: start; */
+      margin-top: 47px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #525253;
+      font-size: 2.5rem;
+  }
+  
+  #project2-home h3 {
+      color: #85D7CB;
+      font-weight: bold;
+      text-align: start;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+  }
+  
+  #project2-home h6 {
+      color: rgb(119, 119, 126);
+      text-align: start;
+      margin-bottom: 25px;
+  }
+  
+  #project2-home p {
+      color: rgb(119, 119, 126);
+      text-align: start;
+      font-size: 1.5rem;
+      line-height: 2.1rem;
+  }
+
+ /*  .logo-image-2{ 
+    display: flex;
+    justify-content: center;
+} 
+
+
+ .logo-image-2 img{
+    align-items: center;
+    transition: transform 2s, 1s ease-in-out;
+    cursor: pointer;
+    max-width: 500px;
+    max-height: 500px;
+}  
+
+
+.logo-image-2 img:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  }
+ */
+
+
+
+#project2-images{
+    background-color: #EEF1F1; 
     display: flex;
     justify-content: center;
     align-items: center;
     height:100%;
     width: 100%;
+  /*   padding-right: 20%;
+    padding-left: 20%; */
 }
 
 
@@ -872,6 +1062,7 @@ Project Page */
 .mobile-image{ 
     display: flex;
     justify-content: center;
+    padding: 5%;
 } 
 
 
@@ -879,26 +1070,82 @@ Project Page */
     align-items: center;
     /* transition: transform 2s, 1s ease-in-out; */
     cursor: pointer;
-    max-width: 500px;
-    max-height: 500px;
+   /*  max-width: 200px; */
+    max-height: 400px;
     box-shadow: 0px 8px 20px rgba(77, 74, 74, 0.63);
+  
 }  
 
 
+/* persona section */
+
+#project1-persona{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  /*   height:100%;
+    width: 100%; */
+}
+
+#project1-persona h1{
+    color: #525253;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#project1-persona p{
+     font-size: 1.3rem;
+     line-height: 2.1rem;
+     padding-top: 20px;
+   
+ }
+
+.persona-image{ 
+    display: flex;
+    justify-content: center;
+} 
 
 
+.persona-image img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#project1-scenario{
+    background-color: #EEF1F1; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#project1-scenario h1{
+    color: #525253;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#project1-scenario p{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    padding-top: 20px;
+}
+
+.scenario-image{ 
+    display: flex;
+    justify-content: center;
+} 
 
 
-
-
-
-
-
-
-
-
-
-
+.scenario-image img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 
 /* Media queries */
 
@@ -1107,11 +1354,7 @@ Project Page */
     margin-top: 25px; 
     padding-right: 15%;
 } */
-.box-7 p{
-    margin-top: 25px; 
-    padding-right: 5%;
-    padding-left: 5%;
-}
+
 
 #contact h2 {
     padding-right: 20%;
@@ -1188,6 +1431,16 @@ Project Page */
 .logo {
     margin-left: 30px;
 }
+
+/* #project2-images{
+    padding-right: 10%;
+    padding-left: 10%; 
+} */
+.mobile-image img{
+    max-width: 500px;
+    max-height: 500px;
+}  
+
 
 }
 
