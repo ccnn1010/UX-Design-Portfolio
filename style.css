@@ -982,8 +982,11 @@ Project Page */
 
 .affinity-image img{
     align-items: center;
-    height: 100%;
-    width: 100%;
+    max-width: 230px;
+    margin-top: 25px;
+   /*  max-height: 800px; */
+    /* height: 100%;
+    width: 100%; */
 }
 
  
@@ -1316,6 +1319,8 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
+  /*   height:100%;
+    width: 100%; */
 }
 
 #project1-wireframes h1{
@@ -1333,18 +1338,98 @@ blockquote {
    /*  padding-top: 20px; */
 }
 
-.wireframe-image{ 
+/* .wireframe-image{ 
     display: flex;
     justify-content: center;
-} 
+}  */
 
 
-.wireframe-image img {
+/* .wireframe-image img {
     align-items: center;
     width: 100%;
     height: 100%;
+} */
+
+
+.wireframe-image{ 
+    display: flex;
+    justify-content: center;
+   /*  padding: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+ */
+} 
+
+.wireframe-image img{
+    align-items: center;
+    /* transition: transform 2s, 1s ease-in-out; */
+    cursor: pointer;
+   /*  max-width: 200px; */
+    max-height: 400px;
+    max-width: 200px;
+    box-shadow: 0px 8px 20px rgba(77, 74, 74, 0.63);
+}  
+
+.wireframeButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
+#project1-final{
+    /* background-color: #EEF1F1;  */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  /*   height:100%;
+    width: 100%; */
+}
+
+#project1-final h1{
+    color: #525253;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#project1-final p{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+   /*  padding-top: 20px; */
+}
+
+/* .wireframe-image{ 
+    display: flex;
+    justify-content: center;
+}  */
+
+
+/* .wireframe-image img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} */
+
+
+.final-image{ 
+    display: flex;
+    justify-content: center;
+   /*  padding: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+ */
+} 
+
+
+.final-image img {
+    align-items: center;
+    cursor: pointer;
+    max-height: 500px;
+    margin-top: 55px;
+}
 
 #project1-system{
    /*  background-color: #EEF1F1;  */
@@ -1380,6 +1465,40 @@ blockquote {
     height: 100%;
 }
 
+#project1-visual{
+    background-color: rgba(238, 241, 241, 0.4); 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#project1-visual h1{
+    color: #525253;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#project1-visual p{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+   /*  padding-top: 20px; */
+}
+
+.visual-image{ 
+    display: flex;
+    justify-content: center;
+} 
+
+
+.visual-image img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
@@ -1408,6 +1527,7 @@ blockquote {
 .wireframe-image{ 
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
 } 
 
 
@@ -1417,6 +1537,15 @@ blockquote {
     height: 100%;
 }
 
+
+.wireframeButton a {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 
 /* Media queries */
 
@@ -1715,6 +1844,21 @@ blockquote {
     max-width: 500px;
     max-height: 500px;
 }  
+
+.affinity-image img{
+    max-width: 800px;
+  /*   margin-top: 25px; */
+   /*  max-height: 800px; */
+    /* height: 100%;
+    width: 100%; */
+}
+
+.final-image img{
+    align-items: center;
+    cursor: pointer;
+    max-height: 800px;
+}  
+
 
 
 }
