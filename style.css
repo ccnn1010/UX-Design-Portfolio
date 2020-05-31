@@ -906,7 +906,7 @@ Project Page */
 
 
 #project1-images{
-    background-color: #EEF1F1; 
+    background-color: rgba(238, 241, 241, 0.4); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -922,17 +922,69 @@ Project Page */
     width: 100%; */
 }
 
+
 #project1-research{
-    background-color: #EEF1F1; 
-     display: flex;
-/*   justify-content: center; */
- /*   align-items: center;  */
-   /*   height:100%;
-     width: 100%; */
-   /*   padding-right: 20%;
-     padding-left: 20%; */
+    background-color: rgba(238, 241, 241, 0.4); 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  /*   height:100%;
+    width: 100%; */
+}
+
+#project1-research h1{
+    color: #525253;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#project1-research p{
+     font-size: 1.3rem;
+     line-height: 2.1rem;
  }
 
+
+ #project1-research h3 {
+    color: #525253;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-top: 50px;
+    font-size: 1.4rem;
+}
+
+#project1-research li {
+    color: #525253;
+    font-size: 1.2rem;
+}
+
+/* 
+
+.project1-affinity{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px; 
+ }
+
+
+.project1-affinity img{
+    align-items: center;
+   
+} */
+
+.affinity-image{
+    display: flex;
+    justify-content: center;
+}
+
+.affinity-image img{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
 
  
  .project1-brief h1{
@@ -1025,6 +1077,10 @@ blockquote {
     margin-right: 20px;
     vertical-align: -1rem;
   }
+
+  .italic-info{
+      font-style: italic;
+  }
   /* blockquote p {
     display: inline;
     
@@ -1094,7 +1150,7 @@ blockquote {
 
 
 #project2-images{
-    background-color: #EEF1F1; 
+    background-color: rgba(238, 241, 241, 0.664); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1177,7 +1233,7 @@ blockquote {
 }
 
 #project1-scenario{
-    background-color: #EEF1F1; 
+    background-color: rgba(238, 241, 241, 0.4); 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -1219,7 +1275,7 @@ blockquote {
 }
 
 #project2-system{
-    background-color: #EEF1F1; 
+    background-color: rgba(238, 241, 241, 0.4); 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -1328,7 +1384,7 @@ blockquote {
 
 
 #project2-wireframes{
-    background-color: #EEF1F1;  
+    background-color: rgba(238, 241, 241, 0.664); 
     display: flex;
     justify-content: center;
     align-items: center; 
