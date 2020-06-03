@@ -960,6 +960,70 @@ Project Page */
     font-size: 1.2rem;
 }
 
+
+#project2-research{
+    background-color: rgba(238, 241, 241, 0.4); 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  /*   height:100%;
+    width: 100%; */
+}
+
+#project2-research h1{
+    color: #525253;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#project2-research p{
+     font-size: 1.3rem;
+     line-height: 2.1rem;
+ }
+
+
+ #project2-research h3 {
+    color: #525253;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-top: 50px;
+    font-size: 1.4rem;
+}
+
+#project2-research li {
+    color: #525253;
+    font-size: 1.2rem;
+}
+
+.project2-brief h1{
+    color: #525253;
+    font-size: 1.8rem; 
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+   /*  line-height: 30px; */
+}
+
+
+.project2-brief p{
+   /*  border: 1px solid red;  */
+    font-size: 1.2rem;
+    text-align: left; 
+    padding: 0;
+   /*  padding-top: 20px; */
+}
+
+
+
+.project2-brief li{
+/*     list-style-type: none; */
+    padding: 0;
+    font-size: 1.2rem;
+}
 /* 
 
 .project1-affinity{
@@ -1104,9 +1168,15 @@ blockquote {
     width: 200px;
     flex:0 1 auto;
     align-self:center;
-    margin: 0 auto; */
+    margin: 0 auto; 
  /*  border:1px solid red;  */
  } 
+
+ .heading2{
+    font-weight: bold;
+    color: #525253;
+    /* text-decoration: underline; */
+}
 
   
 #project1-conclusion{
