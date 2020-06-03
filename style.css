@@ -1085,6 +1085,29 @@ blockquote {
       font-style: italic;
   }
 
+  .userInsight-heading p {
+    justify-content: center;
+    text-align: center;
+    font-size:0.8rem;
+    color: #959599;
+}
+.user-img{
+    display: flex;
+    justify-content:center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    /*border: 3px solid red;*/
+ } 
+
+ .user-img img{
+    height: 200px;
+    width: 200px;
+    flex:0 1 auto;
+    align-self:center;
+    margin: 0 auto; */
+ /*  border:1px solid red;  */
+ } 
+
   
 #project1-conclusion{
     background-color: rgba(238, 241, 241, 0.4); 
