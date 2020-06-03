@@ -1661,6 +1661,7 @@ blockquote {
 .visual-image{ 
     display: flex;
     justify-content: center;
+    margin-top: 50px;;
 } 
 
 
@@ -1670,11 +1671,23 @@ blockquote {
     height: 100%;
 }
 
+.wireframe2-image{ 
+    display: flex;
+    justify-content: center;
+} 
+
+
+.wireframe2-image img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
 #project2-wireframes{
-    background-color: rgba(238, 241, 241, 0.664); 
+    /* background-color: rgba(238, 241, 241, 0.664);  */
     display: flex;
     justify-content: center;
     align-items: center; 
