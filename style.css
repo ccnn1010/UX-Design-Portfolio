@@ -941,10 +941,11 @@ Project Page */
     margin-top: 20px;
 }
 
-#project1-research p{
-     font-size: 1.3rem;
-     line-height: 2.1rem;
- }
+ .paragraph-research p{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+}
+
 
 
  #project1-research h3 {
@@ -952,7 +953,16 @@ Project Page */
     font-weight: bold;
     line-height: 2rem;
     margin-top: 50px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+}
+
+#project1-research h4 {
+    color: #525253;
+   /*  font-weight: bold; */
+    line-height: 2rem;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    text-decoration: underline;
 }
 
 #project1-research li {
@@ -1149,12 +1159,15 @@ blockquote {
       font-style: italic;
   }
 
-  .userInsight-heading p {
+  .userInsight-heading p{
     justify-content: center;
     text-align: center;
-    font-size:0.8rem;
+    font-size: 1.1rem;
     color: #959599;
+    padding-right: 5%;
+    padding-left: 5%;
 }
+
 .user-img{
     display: flex;
     justify-content:center;
@@ -1164,8 +1177,8 @@ blockquote {
  } 
 
  .user-img img{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     flex:0 1 auto;
     align-self:center;
     margin: 0 auto; 
@@ -2213,6 +2226,10 @@ blockquote {
 #project2-final h3{
     margin-top: 110px;
  /*    margin-bottom: -60px; */
+}
+.userInsight-heading p{
+    padding-right: 30%;
+    padding-left: 30%;
 }
 
 
