@@ -1354,6 +1354,12 @@ blockquote {
     margin-top: 20px;
     margin-bottom: 80px;
 }
+.wireframeButton2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
 
 .wireframeMomu{ 
     display: flex;
@@ -1453,6 +1459,44 @@ blockquote {
     box-shadow: 0px 8px 20px rgba(133, 129, 129, 0.432);
 }
 
+#project2-final{
+    /* background-color: #EEF1F1;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px; 
+  /*   height:100%;
+    width: 100%; */
+}
+
+#project2-final h1{
+    color: #525253;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#projec2-final p{
+    color: #525253;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+   /*  padding-top: 20px; */
+}
+#project2-final h5{
+    margin-top: 20px;
+    text-align: center;
+    color: #525253;
+    font-weight: bold;
+}
+
+/* #project2-final h4{
+    margin-top: 20px;
+    text-align: center;
+    color: #525253;
+    font-weight: bold;
+} */
 
 
 
@@ -1588,6 +1632,15 @@ blockquote {
     padding-bottom: 6px;
 }
 
+.wireframeButton2 a {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
 #project2-final{
     /* background-color: #EEF1F1;  */
     display: flex;
@@ -1624,6 +1677,7 @@ blockquote {
     max-height: 400px;
     max-width: 350px;
     margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 .final-prototype-Cedrion{ 
@@ -1643,7 +1697,7 @@ blockquote {
 .final-website embed {
     height:600px;
     width: auto;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 
@@ -2291,6 +2345,20 @@ blockquote {
 }
 #project1-final p {
     font-size: 1.3rem;
+
+}
+#project2-final{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#project2-final h1 {
+    font-size: 2.5rem;
+}
+#project2-final p {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
 
 }
 
