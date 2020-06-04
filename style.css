@@ -968,6 +968,7 @@ Project Page */
 .design-process-image{
    display: flex;
    justify-content: center;
+   margin-top: 20px;
 }
 
 .design-process-image img{
