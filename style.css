@@ -2040,12 +2040,13 @@ blockquote {
 }
 .wireframeMomu iframe {
     width: 300px; 
-    height: 750px;
-    margin-top: 120px;
+    height: 650px;
+    margin-top: 20px;
 }
 
 .wireframeButton {
-    margin-top: 50px;
+    /* margin-top: 20px; */
+   margin-top: 50px; 
     /* margin-bottom: 10px; */
 }
 .wireframeButton a {
@@ -2221,12 +2222,15 @@ blockquote {
     font-size: 1.8rem;
     margin-top: 50px;
 }
+
 #project1-persona li {
     font-size: 1.3rem;
+    padding-right: 15%;
 }
 #project1-persona p{
     font-size: 1.3rem;
     line-height: 2.1rem;
+    padding-right: 15%;
   /*   padding-top: 20px; */
   
 }
@@ -2248,6 +2252,7 @@ blockquote {
 }
 #project1-scenario p {
     font-size: 1.3rem;
+    padding-right: 15%;
 }
 
 #project1-wireframes{
@@ -2315,7 +2320,8 @@ blockquote {
     font-size: 1.3rem;
 }
 #project1-final h6 {
-   font-size: 1.3rem;
+    display: none;
+   /* font-size: 1.3rem; */
 }
 
 }
