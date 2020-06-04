@@ -559,25 +559,15 @@ Project Page */
   }
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Project 1 section */
 /* MAGIC WITH THE NAVBAR this allows the bottom to move to the top of the what we do section*/
  .container-fluid {
     padding-right: 0;
     padding-left: 0;
+  /*   margin-right: 200px;
+    margin-left: 200px; */
+    /* margin: 0px auto; */
 }
  
 
@@ -891,10 +881,10 @@ Project Page */
     line-height: 1.8rem;
 }
 
-#project-home h6 {
+#project-home h5 {
     color: rgb(119, 119, 126);
     text-align: start;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 #project-home p {
@@ -910,6 +900,8 @@ Project Page */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
    /*  height:100%;
     width: 100%; */
 }
@@ -917,6 +909,7 @@ Project Page */
 #project1-introduction{
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
    /*  align-items: center; */
     /* height:100%;
     width: 100%; */
@@ -942,6 +935,10 @@ Project Page */
 }
 
  .paragraph-research p{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+}
+.paragraph-research-last{
     font-size: 1.3rem;
     line-height: 2.1rem;
 }
@@ -975,7 +972,9 @@ Project Page */
     background-color: rgba(238, 241, 241, 0.4); 
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+  /*   padding-top: 30px; */
+    padding-bottom: 30px; 
   /*   height:100%;
     width: 100%; */
 }
@@ -1048,6 +1047,10 @@ Project Page */
     align-items: center;
    
 } */
+.affinity{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 
 .affinity-image{
     display: flex;
@@ -1164,8 +1167,10 @@ blockquote {
     text-align: center;
     font-size: 1.1rem;
     color: #959599;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+    /* padding-right: 5%;
+    padding-left: 5%; */
 }
 
 .user-img{
@@ -1260,7 +1265,7 @@ blockquote {
       line-height: 1.8rem;
   }
   
-  #project2-home h6 {
+  #project2-home h5 {
       color: rgb(119, 119, 126);
       text-align: start;
       margin-bottom: 25px;
@@ -1272,40 +1277,13 @@ blockquote {
       font-size: 1.5rem;
       line-height: 2.1rem;
   }
-
- /*  .logo-image-2{ 
-    display: flex;
-    justify-content: center;
-} 
-
-
- .logo-image-2 img{
-    align-items: center;
-    transition: transform 2s, 1s ease-in-out;
-    cursor: pointer;
-    max-width: 500px;
-    max-height: 500px;
-}  
-
-
-.logo-image-2 img:hover {
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1); 
-  }
- */
-
-
+ 
 
 #project2-images{
     background-color: rgba(238, 241, 241, 0.664); 
     display: flex;
     justify-content: center;
     align-items: center;
-  /*   height:100%;
-    width: 100%; */
-  /*   padding-right: 20%;
-    padding-left: 20%; */
 }
 
 
@@ -1319,9 +1297,7 @@ blockquote {
 
 .mobile-image img{
     align-items: center;
-    /* transition: transform 2s, 1s ease-in-out; */
     cursor: pointer;
-   /*  max-width: 200px; */
     max-height: 400px;
     box-shadow: 0px 8px 20px rgba(77, 74, 74, 0.63);
   
@@ -1334,6 +1310,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding-bottom: 30px;
   /*   height:100%;
     width: 100%; */
 }
@@ -1384,7 +1361,8 @@ blockquote {
     background-color: rgba(238, 241, 241, 0.4); 
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    padding-bottom: 30px; 
 }
 
 #project1-scenario h1{
@@ -1427,6 +1405,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding-bottom: 30px;
 }
 
 #project2-system h1{
@@ -1464,6 +1443,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding-bottom: 30px;
   /*   height:100%;
     width: 100%; */
 }
@@ -1480,6 +1460,7 @@ blockquote {
 #project1-wireframes p{
     font-size: 1.3rem;
     line-height: 2.1rem;
+    margin-bottom: 80px;
    /*  padding-top: 20px; */
 }
 
@@ -1544,7 +1525,8 @@ blockquote {
     /* background-color: #EEF1F1;  */
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    padding-bottom: 30px; 
   /*   height:100%;
     width: 100%; */
 }
@@ -1621,6 +1603,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding-bottom: 30px;
 }
 
 #project1-system h1{
@@ -1655,6 +1638,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding-bottom: 30px;
 }
 
 #project1-visual h1{
@@ -1705,6 +1689,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding-bottom: 30px;
 }
 
 #project2-wireframes h1{
@@ -1829,8 +1814,9 @@ blockquote {
 
 .final-website embed {
     height:600px;
-   width: auto;
-   margin-bottom: 50px;
+    width: auto;
+    margin-top: 80px;
+    /* margin-bottom: 80px; */
     /* style="width:1500px; height: 800px; */
 }
 
@@ -2038,7 +2024,10 @@ blockquote {
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
   }
-
+  #project1-2{
+    padding-right: 5%;
+    padding-left: 5%;
+}
     
 
     #project1-2 h1{
@@ -2049,19 +2038,28 @@ blockquote {
     }
   
     #project1-2 p{
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       padding-left: 5%;
       padding-right: 5%;
-      line-height: 2.2rem;
+      padding-bottom: 5%;
+      line-height: 2.7rem;
     }
 
 
     #project1 h1{
         padding-top: 70px;
+        font-size: 3rem;
   }
 
   #project2 h1{
     padding-top: 70px;
+    font-size: 3rem;
+}
+#project1 p {
+    font-size: 1.8rem;
+}
+#project2 p {
+    font-size: 1.8rem;
 }
 
 
@@ -2111,6 +2109,7 @@ blockquote {
 
 .button1 {
     padding: 15px;
+    font-size: 1.4rem;
 }
 .button1:hover {
     box-shadow: 0px 15px 20px rgba(255, 177, 193, 0.692);
@@ -2119,6 +2118,7 @@ blockquote {
 
 .button2 {
     padding: 15px;
+    font-size: 1.4rem;
 }
 .button2:hover {
     box-shadow: 0px 15px 20px rgba(133, 215, 203, 0.712);
@@ -2127,6 +2127,7 @@ blockquote {
 
 .button3 {
     padding: 15px;
+    font-size: 1.4rem;
 }
 
 .button3:hover {
@@ -2136,6 +2137,7 @@ blockquote {
 
 .button4 {
     padding: 15px;
+    font-size: 1.4rem;
 }
 
 .button4:hover {
@@ -2150,8 +2152,8 @@ blockquote {
     margin-top: 50px;
 }
 .logo-image img {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 550px;
+    max-height: 550px;
 }
 .box-2 img {
     max-width: 400px;
@@ -2167,6 +2169,9 @@ blockquote {
 }
 .logo {
     margin-left: 30px;
+}
+.nav-link{
+    font-size: 1.5rem;
 }
 
 /* #project2-images{
@@ -2227,14 +2232,222 @@ blockquote {
     margin-top: 110px;
  /*    margin-bottom: -60px; */
 }
-.userInsight-heading p{
+/* .userInsight-heading p{
     padding-right: 30%;
     padding-left: 30%;
+} */
+.social-icons p {
+    font-size: 1.3rem;
+}
+.copyright h6 {
+    font-size: 1.2rem;
+}
+#project-home{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#project2-home{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#project-home h1 {
+    font-size: 3rem;
+}
+#project-home h3 {
+    font-size: 1.8rem;
+}
+#project-home h5 {
+    font-size: 1.4rem;
+}
+#project-home p {
+    font-size: 1.8rem;
+}
+
+#project2-home h1 {
+    font-size: 3rem;
+}
+#project2-home h3 {
+    font-size: 1.8rem;
+}
+#project2-home h5 {
+    font-size: 1.4rem;
+}
+#project2-home p {
+    font-size: 1.8rem;
+}
+.project1-brief li {
+    font-size: 1.3rem;
+}
+.project1-brief h1 {
+    font-size: 2.5rem;
+}
+.project1-responsibilities h3 {
+    font-size: 1.7rem;
+}
+.project1-responsibilities p {
+    font-size: 1.3rem;
+}
+.project1-responsibilities li {
+    font-size: 1.3rem;
+}
+
+#project1-introduction{
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+}
+
+#project1-research{
+    padding-right: 5%;
+    padding-left: 5%;
+  /*   margin-top: 200px;
+    margin-bottom: 80px; */
+}
+#project1-research h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    margin-top: 80px; 
+}
+#project1-research h3 {
+    font-size: 1.8rem;
+    margin-top: 80px;
+}
+#project1-research li {
+    font-size: 1.3rem;
+}
+.paragraph-research-last{
+    margin-bottom: 80px;
+}
+#project2-research{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#project2-research h1 {
+    font-size: 2.5rem;
+}
+#project2-research h3 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+#project2-research li {
+    font-size: 1.3rem;
 }
 
 
-
+.design-process-image{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+
+#project2-system{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#project2-wireframes{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+blockquote {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 1.8rem;
+}
+
+#project1-persona{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#project1-persona h1 {
+    font-size: 2.5rem;
+}
+#project1-persona h3 {
+    font-size: 1.8rem;
+}
+#project1-persona li {
+    font-size: 1.3rem;
+}
+
+#project1-scenario{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#project1-scenario h1 {
+    font-size: 2.5rem;
+/*     margin-top: 80px;
+    margin-bottom: 80px; */
+}
+#project1-scenario h3 {
+    font-size: 1.8rem;
+}
+
+#project1-wireframes{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#project1-wireframes h1 {
+    font-size: 2.5rem;
+}
+
+#project1-visual{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#project1-visual h1 {
+    font-size: 2.5rem;
+}
+#project1-final{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#project1-final h1 {
+    font-size: 2.5rem;
+}
+#project1-conclusion{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#project1-conclusion h1 {
+    font-size: 2.5rem;
+}
+#project1-conclusion h3 {
+    font-size: 1.8rem;
+}
+.affinity-image{
+    padding-left: 5%;
+}
+#project1-persona{
+    margin-top: 80px;
+    margin-bottom: 80px;
+   }
+}
+
+
 
 
 @media  (max-width:991px){
