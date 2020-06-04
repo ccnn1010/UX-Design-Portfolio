@@ -824,9 +824,7 @@ Project Page */
 
 #project1-research h4 {
     color: #525253;
-   /*  font-weight: bold; */
     line-height: 2rem;
-  /*   margin-top: 50px; */
     font-size: 1.3rem;
     text-decoration: underline;
 }
@@ -834,6 +832,7 @@ Project Page */
 #project1-research li {
     color: #525253;
     font-size: 1.2rem;
+    line-height: 2.1rem;
 }
 
 
@@ -842,10 +841,7 @@ Project Page */
     display: flex;
     justify-content: center;
     align-items: center;
-  /*   padding-top: 30px; */
     padding-bottom: 30px; 
-  /*   height:100%;
-    width: 100%; */
 }
 
 #project2-research h1{
@@ -902,20 +898,7 @@ Project Page */
     padding: 0;
     font-size: 1.2rem;
 }
-/* 
 
-.project1-affinity{
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 200px; 
- }
-
-
-.project1-affinity img{
-    align-items: center;
-   
-} */
 .affinity{
     margin-top: 100px;
     margin-bottom: 50px;
@@ -930,9 +913,6 @@ Project Page */
     align-items: center;
     max-width: 230px;
     margin-top: 25px;
-   /*  max-height: 800px; */
-    /* height: 100%;
-    width: 100%; */
 }
 
  
@@ -943,7 +923,6 @@ Project Page */
     line-height: 2rem;
     margin-bottom: 20px;
     margin-top: 20px;
-   /*  line-height: 30px; */
 }
 
 
@@ -952,20 +931,19 @@ Project Page */
     font-size: 1.2rem;
     text-align: left; 
     padding: 0;
-   /*  padding-top: 20px; */
 }
 
 
 .project1-brief .heading{
     font-weight: bold;
     color: #525253;
-    /* text-decoration: underline; */
 }
 
 .project1-brief li{
     list-style-type: none;
     padding: 0;
     font-size: 1.2rem;
+    line-height: 2.1rem;
 }
 
 .project1-responsibilities h3{
@@ -979,6 +957,7 @@ Project Page */
 .project1-responsibilities li{
     color: #525253;
     font-size: 1.2rem;
+    line-height: 2.1rem;
 }
 
 .project1-responsibilities p{
@@ -1016,7 +995,7 @@ blockquote {
     color: #959599;
     font-weight: bold;
   
-    /* quotes: "\201C""\201D""\2018""\2019"; */
+   
   }
   blockquote:before {
     color: #85D7CB;
@@ -1038,8 +1017,6 @@ blockquote {
     color: #959599;
     padding-right: 15%;
     padding-left: 15%;
-    /* padding-right: 5%;
-    padding-left: 5%; */
 }
 
 .user-img{
@@ -1062,7 +1039,6 @@ blockquote {
  .heading2{
     font-weight: bold;
     color: #525253;
-    /* text-decoration: underline; */
 }
 
   
@@ -1071,8 +1047,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
-  /*   height:100%;
-    width: 100%; */
+    padding-bottom: 30px; 
 }
 
 #project1-conclusion h1{
@@ -1095,6 +1070,7 @@ blockquote {
     font-weight: bold;
     line-height: 2rem;
     margin-top: 50px;
+    margin-bottom: 20px;
     font-size: 1.4rem;
 }
 
@@ -2320,6 +2296,7 @@ blockquote {
 }
 #project1-conclusion h1 {
     font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 #project1-conclusion h3 {
     font-size: 1.8rem;
@@ -2336,6 +2313,9 @@ blockquote {
    }
    #project1-wireframes p {
     font-size: 1.3rem;
+}
+#project1-final h6 {
+   font-size: 1.3rem;
 }
 
 }
