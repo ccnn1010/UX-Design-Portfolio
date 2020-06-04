@@ -16,6 +16,10 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+body p{
+    color: #525253;
+}
+
 
 /* Navbar */
 
@@ -25,44 +29,19 @@ body{
 
 .navbar{
     background-color: white;
-   /*  color:#525253; */
-   border-bottom:1px solid rgba(224, 230, 229, 0.486);
+    border-bottom:1px solid rgba(224, 230, 229, 0.486);
 }
 
 .nav-link{
     font-size: 20px;
-   /*  font-weight: bold; */
     justify-content: flex-end;
     align-items: center;
-  /*   color:#525253; */
 }
-
-/* .navbar-nav .nav-link {
-    color:#525253;
-} */
-
-/* .navbar-nav .nav-link:hover{
-    background-color: #85D7CB;
-    transition: background .3s;
-    border-radius: 5px; 
-    color:white;
-} */
-/* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: white;
-} */
-/* .nav > li > a:hover{
-    background-color:#FCC;
-} */
 
 .navbar-light .navbar-toggler  {
     border: none;
     outline: none;
   }
-
-/* .active a{
-    font-weight: bold;
-    color:  #85D7CB;
-} */
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -78,15 +57,6 @@ body{
     color: #85D7CB;
 }
 
-/* .navbar-nav > li{
-    margin-left:30px;
-    margin-right:30px;
-  } */
-/* .active {
-    color: #85D7CB;
-    font-weight: bold;
-    background:linear-gradient(#85D7CB,#85D7CB) bottom/100% 4px no-repeat; 
-  } */
   
 .logo{
     margin-left: 12px;
@@ -103,8 +73,6 @@ body{
 
 
 /*  Landing Page */
-
-
 #home{
     background-color: white;
     display: flex;
@@ -116,14 +84,12 @@ body{
 
 
 #home h1{
-      /*   text-align: start; */
-        /* margin-top: 40px; */
         text-align: center;
         margin-bottom: 20px;
         font-weight: bold;
         color: #525253;
         font-size: 2.2rem;
-   /*      text-decoration: underline wavy; 
+   /*   text-decoration: underline wavy; 
         text-decoration-color: #85D7CB; */
 }
 
@@ -131,10 +97,8 @@ body{
     text-align: center;
     color: rgb(119, 119, 126);
     font-size: 1.5rem;
-    /* margin-top: 50px; */
     line-height: 2rem;
     margin-bottom: 50px;
-    /* margin-bottom: -10px; */
 }
 
 
@@ -153,7 +117,6 @@ body{
     cursor: pointer;
     max-width: 200px;
     max-height: 200px;
-    /* margin-top: 50px;  */
 }  
 
 
@@ -164,24 +127,10 @@ body{
   }
 
 
-
-
-/* .home-container{
-    margin-top: 120px;
-} */
-
 .scroll-down{
     /*   border: 1px solid red; */
     display:none;
   }  
-/* 
-  .scroll-down h4{
-    color: #77777E;
-  font-size: 1.5rem;
-  }   */
-
-
-
 
 .box-0 h1{
     text-align: start;
@@ -248,9 +197,7 @@ body{
 .highlight:hover {
     color:black;
     text-decoration: none;
-    /* Alternative colour---  */
     box-shadow: inset 0 -1.5em 0 #FFD4DC;
-    /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
 }
 
   .fullstop{
@@ -293,18 +240,11 @@ body{
 
 /* https://codepen.io/jaabert/pen/gObMGBV */
 
-/* .design-thinking {
-    padding-left: 10%;
-    padding-right: 10%;
-} */
-
-
 .design-thinking h2{
     color: #525253;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2rem;
-   /*  line-height: 30px; */
 }
 
 
@@ -349,7 +289,6 @@ body{
 .box-6 p{
    /*  border: 1px solid red;  */
     font-size: 1rem;
-    /* text-align: left;  */
     padding-top: 30px;
     padding-right: 5%;
     font-weight: bold;
@@ -389,17 +328,8 @@ body{
 .box-5{
     padding: 5%;
 }
-/* 
-.box-5 .img-responsive{
-    padding-right: 0;
-} */
 
-/* .padding{
-    padding: 50px 0;
-} */
-
-
- .padding img{
+.padding img{
     width: 100%;
     padding: 5%;
 }
@@ -407,43 +337,9 @@ body{
 
 #about-us p{
     margin-top: 25px; 
-    /* text-align: start; */
-   /*  padding-right: 5%;
-    padding-left: 5%; */
     font-size:1.3rem;
-    color: #77777E;
+    /* color: #77777E; */
 }
-
-
-
-/* @media (min-width:768px)  {
-
-    .box-4 h2{
-        font-size: 2.5rem;
-    }
-
-    .box-4 p{
-        font-size: 1.5rem;
-        padding-top: 40px;
-        
-} 
-
-.box-6 p{
-    font-size: 1.2rem;
-    padding-right: 40px;
-    
-} 
-}
-
-.box-7 p{
-    text-align: start;
-    margin-top: 25px; 
-    color: rgb(119, 119, 126);
-    font-size: 1.2rem;
-    
-} */
-
-
 
 
 /* 
@@ -470,25 +366,20 @@ Project Page */
 }
 
 #project1-2 p {
-    color: rgb(119, 119, 126);
+/*  color: rgb(119, 119, 126); */
     text-align: start;
     font-size: 1.2rem;
-    /* margin-top: 50px; */
     line-height: 1.8rem;
     margin-bottom: 25px;
-    /* margin-bottom: -10px; */
 }
 
 
 .projectButton{
-  /*   margin-top: 50px; */
     display: flex;
     justify-content: center; 
 }
 
 .projectButton a{
-   /*  margin-top: 15px;
-    margin-bottom: 10px; */
     margin-right: 20px;
     margin-left: 20px;
     padding-right:20px;
@@ -548,7 +439,6 @@ Project Page */
     cursor: pointer;
     max-width: 200px;
     max-height: 200px;
-    /* margin-top: 50px;  */
 }  
 
 
@@ -561,13 +451,10 @@ Project Page */
 
 
 /* Project 1 section */
-/* MAGIC WITH THE NAVBAR this allows the bottom to move to the top of the what we do section*/
+
  .container-fluid {
     padding-right: 0;
     padding-left: 0;
-  /*   margin-right: 200px;
-    margin-left: 200px; */
-    /* margin: 0px auto; */
 }
  
 
@@ -581,15 +468,6 @@ Project Page */
     width: 100%;
 }
 
-/* #project1:before { 
-    display: block; 
-    content: " "; 
-    margin-top: -75px; 
-    height: 75px; 
-    visibility: hidden; 
-  }
- */
-
 #project1 h1 {
     text-align: center;
     font-size: 2.3rem;
@@ -600,13 +478,11 @@ Project Page */
    } 
 
    #project1 p {
-  /*   align-items: center; */
     text-align: center; 
     font-size: 1.3rem;
-    color: #525253;
+/*     color: #525253; */
     letter-spacing: 2px;
     line-height: 2rem;
-   /*  padding-top: 5%; */
 }
 
 
@@ -622,8 +498,6 @@ Project Page */
 }
 
 .projectButton-projects a{
-    /*  margin-top: 15px;
-     margin-bottom: 10px; */
      margin-right: 20px;
      margin-left: 20px;
      padding-right:20px;
@@ -647,15 +521,9 @@ Project Page */
 .button3:hover {
     color:  rgb(178, 178, 184);
     background-color: white;
-   /*  background-color: #C0C0C9; */
     border-color: transparent;
     text-decoration: none;
-  /*   box-shadow: 0px 15px 20px rgba(255, 177, 193, 0.692);
-    transform: translateY(-7px); */
 }
-
-
-
 
 
 .logo-image{ 
@@ -950,7 +818,7 @@ Project Page */
     color: #525253;
     font-weight: bold;
     line-height: 2rem;
-   margin-top: 20px; 
+    margin-top: 50px; 
     font-size: 1.3rem;
 }
 
@@ -1226,7 +1094,7 @@ blockquote {
     color: #525253;
     font-weight: bold;
     line-height: 2rem;
-/*     margin-top: 50px; */
+    margin-top: 50px;
     font-size: 1.4rem;
 }
 
@@ -1338,18 +1206,22 @@ blockquote {
     color: #525253;
     font-weight: bold;
     line-height: 2rem;
-   /*  margin-top: 50px; */
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-size: 1.3rem;
 }
 
 #project1-persona li {
     color: #525253;
     font-size: 1.2rem;
+    line-height: 2.1rem;
 }
 
 .persona-image{ 
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+      
 } 
 
 
@@ -1393,6 +1265,7 @@ blockquote {
 .scenario-image{ 
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 } 
 
 
@@ -1543,9 +1416,15 @@ blockquote {
 }
 
 #project1-final p{
+    color: #525253;
     font-size: 1.2rem;
     line-height: 2.1rem;
    /*  padding-top: 20px; */
+}
+#project1-final h6{
+    margin-top: 20px;
+    text-align: center;
+    color: #525253;
 }
 
 /* .wireframe-image{ 
@@ -2364,6 +2243,7 @@ blockquote {
 }
 #project1-persona h3 {
     font-size: 1.8rem;
+    margin-top: 50px;
 }
 #project1-persona li {
     font-size: 1.3rem;
