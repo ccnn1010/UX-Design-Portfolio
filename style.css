@@ -71,6 +71,10 @@ body p{
     margin: 0;
  }
 
+/* .row-padding{
+    padding-left: 30%;
+    padding-right: 30%;
+} */
 
 /*  Landing Page */
 #home{
@@ -240,9 +244,13 @@ body p{
 
 /* https://codepen.io/jaabert/pen/gObMGBV */
 
+#workflow{
+    background-color: rgba(238, 241, 241, 0.4); 
+}
+
 .design-thinking h2{
     color: #525253;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 2rem;
 }
@@ -263,7 +271,8 @@ body p{
 
 .design-image img{
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     transition: transform 2s, 1s ease-in-out;
     box-shadow: 5px 5px 25px rgba(255, 212, 220, 0.651);
     border-radius: 20px;
@@ -1069,6 +1078,15 @@ blockquote {
       font-style: italic;
   }
 
+  .userInsight-heading h5{
+    justify-content: center;
+    text-align: center;
+    color: #85D7CB;
+    font-weight: bold;
+/*     padding-right: 15%;
+    padding-left: 15%; */
+}
+
   .userInsight-heading p{
     justify-content: center;
     text-align: center;
@@ -1094,6 +1112,24 @@ blockquote {
     margin: 0 auto; 
  /*  border:1px solid red;  */
  } 
+
+ .designThinking-heading h5{
+    justify-content: center;
+    text-align: center;
+    color: #85D7CB;
+    font-weight: bold;
+/*     padding-right: 15%;
+    padding-left: 15%; */
+}
+
+.designThinking-heading p{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #959599;
+   /*  padding-right: 25%;
+    padding-left: 25%; */
+}
 
  .heading2{
     font-weight: bold;
@@ -1598,7 +1634,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center; 
-    padding-bottom: 30px;
+  /*   padding-bottom: 30px; */
 }
 
 #project1-visual h1{
@@ -1613,13 +1649,14 @@ blockquote {
 #project1-visual p{
     font-size: 1.2rem;
     line-height: 2.1rem;
+    margin-bottom: 50px;
    /*  padding-top: 20px; */
 }
 
 .visual-image{ 
     display: flex;
     justify-content: center;
-    margin-top: 50px;;
+    margin-bottom: 50px;
 } 
 
 
@@ -1632,6 +1669,7 @@ blockquote {
 .wireframe2-image{ 
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 } 
 
 
@@ -1914,19 +1952,20 @@ blockquote {
     #home h1{
         text-align: start;
         font-size: 3rem;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
         margin-top: 40px;
   }
 
   #home p{
     text-align: start;
-    font-size: 1.5rem;
-    padding-left: 10%;
-    padding-right: 10%;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2.7rem;
     margin-top: 20px;
-    margin-bottom:0;
+    margin-bottom: 50px;
+    /* margin-bottom:0; */
   }
   .scroll-down{
     display:block;
@@ -1944,6 +1983,8 @@ blockquote {
 
   .home-container {
     margin-top: 120px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .home-image img {
     max-width: 280px;
@@ -1956,16 +1997,20 @@ blockquote {
 .design-thinking p {
     line-height: 2.2rem;
     padding-top: 0;
+    font-size: 1.3rem;
+   /*  padding-bottom: 20px; */
 }
 .design-image img {
-    max-width: 500px;
-    max-height: 500px;
-    margin-top: 0;
+    max-width: 650px;
+    max-height: 650px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+  /*   margin-top: 0; */
 }
 .design-image img:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2); 
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
   }
   #project1-2{
     padding-right: 5%;
@@ -2334,6 +2379,7 @@ blockquote {
 }
 #project2-system p{
     font-size: 1.3rem;
+    margin-bottom: 100px;
 }
 
 #project2-wireframes{
@@ -2344,6 +2390,7 @@ blockquote {
 }
 #project2-wireframes p {
     font-size: 1.3rem;
+    margin-bottom: 120px;
 }
 
 
@@ -2481,6 +2528,22 @@ blockquote {
     display: none;
    /* font-size: 1.3rem; */
 }
+.row-padding{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.design-thinking h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+/*     line-height: 2.7rem; */
+}
+.designThinking-heading p{
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+
 /* .line-2 {
     width: 20%;
 } */
