@@ -253,6 +253,7 @@ body p{
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2rem;
+    margin-top: 20px;
 }
 
 
@@ -392,7 +393,7 @@ Project Page */
 
 #project1-2 h1 {
     /* text-align: start; */
-    margin-top: 47px;
+    margin-top: 55px;
     margin-bottom: 20px;
     font-weight: bold;
     color: #525253;
@@ -1243,7 +1244,7 @@ blockquote {
   
   
   #project2-home h1 {
-    margin-top: 47px;
+    margin-top: 70px;
     margin-bottom: 20px;
     font-weight: bold;
     color: #525253;
@@ -1267,8 +1268,9 @@ blockquote {
   #project2-home p {
       color: rgb(119, 119, 126);
       text-align: start;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       line-height: 2.1rem;
+      margin-bottom: -15px;
   }
  
 
@@ -1974,11 +1976,13 @@ blockquote {
     #project-home h1 {
         margin-top: 100px;
         margin-bottom: 40px;
+        font-size: 2rem;
     }
     #project-home p {
         font-size: 1.3rem;
         margin-bottom: 0;
     }
+    
 
     
 .final-prototype iframe {
@@ -2006,6 +2010,161 @@ blockquote {
 .wireframeButton a {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+#about-us p {
+    font-size: 1rem;
+    margin-bottom: -10px;
+    line-height: 1.8rem;
+}
+#about-us h1 {
+    margin-top: 60px;
+}
+.about-image img {
+    max-width: 150px;
+    max-height: 150px;
+}
+#about-experience p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#about-experience h6 {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#about-experience li {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.project1-responsibilities h3 {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+.project1-brief li {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.project1-responsibilities p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.project1-responsibilities li {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-research h1 {
+    font-size: 1.5rem;
+}
+blockquote{
+    font-size: 1.1rem;
+}
+#project1-research h3 {
+    font-size: 1.2rem;
+}
+.paragraph-research p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-research li {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-research h4 {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+.userInsight-heading p {
+    font-size: 1rem;
+}
+.paragraph-research-last {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-persona h3 {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+#project1-persona li {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-persona p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-scenario h3 {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+#project1-scenario p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-wireframes p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-visual p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-final p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-conclusion p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project2-home h1 {
+    margin-top: 100px;
+    font-size: 2rem;
+}
+#project2-home p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+#project2-home h5 {
+    font-size: 1rem;
+}
+#project2-home h3 {
+    font-size: 1.3rem;
+}
+#project2-research h3 {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+#project2-research p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project2-research li {
+    font-size: 1rem;
+}
+#project2-system p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project2-wireframes p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project2-final p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project2-final h5 {
+    font-size: 1rem;
+}
+#project2-final h6 {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#project1-conclusion h3 {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+.designThinking-heading p {
+    font-size: 1rem;
 }
 
    
