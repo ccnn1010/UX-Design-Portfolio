@@ -2281,6 +2281,7 @@ blockquote {
 }
 #project-home p {
     font-size: 1.8rem;
+    line-height: 2.7rem;
 }
 
 #project2-home h1 {
@@ -2294,6 +2295,7 @@ blockquote {
 }
 #project2-home p {
     font-size: 1.8rem;
+    line-height: 2.7rem;
 }
 .project1-brief li {
     font-size: 1.3rem;
