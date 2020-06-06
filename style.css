@@ -1756,6 +1756,16 @@ blockquote {
     margin-bottom: -60px;
 }
 
+.cedrion{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+
+.cedrion p{
+  align-items: center;
+   }
+
 
 .final-image2{ 
     display: flex;
