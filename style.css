@@ -1756,15 +1756,23 @@ blockquote {
     margin-bottom: -60px;
 }
 
-.cedrion{
+#project2-final h6{
+    text-align: center;
+    color: #525253;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 50px;
+}
+
+/* #cedrion{
  display: flex;
  justify-content: center;
  margin-top: 50px;
 }
 
-.cedrion p{
+#cedrion h6{
   align-items: center;
-   }
+   } */
 
 
 .final-image2{ 
@@ -2507,7 +2515,9 @@ blockquote {
 #project2-final p {
     font-size: 1.3rem;
     margin-bottom: 50px;
-
+}
+#project2-final h6{
+    font-size: 1.3rem;
 }
 
 #project1-conclusion{
