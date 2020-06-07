@@ -262,8 +262,8 @@ body p{
     color: #525253;
     font-size: 1.5rem;
     font-weight: bold;
-    line-height: 1.8;
-    margin-top: 20px;
+    line-height: 0.8;
+    margin-top: 30px;
 }
 
 
@@ -361,6 +361,7 @@ body p{
     align-items: center;
     width: 100%;
     height: 100vh;
+    margin-bottom: 10px;
 }
 
 
@@ -378,7 +379,7 @@ body p{
     text-align: start;
     font-size: 1.2rem;
     line-height: 1.8;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 /* #about-us p{
@@ -498,7 +499,7 @@ Project Page */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
 } 
 
 
@@ -519,7 +520,7 @@ Project Page */
 
   #about-us h1 {
     font-size: 2rem;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -537,8 +538,8 @@ Project Page */
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  /*   margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 #about-experience p{
@@ -552,7 +553,7 @@ Project Page */
  #about-experience h3 {
     color: #85D7CB;
     font-weight: bold;
-    line-height: 1.8;
+    line-height: 1.4;
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -761,6 +762,7 @@ Project Page */
     font-size: 1.5rem;
     margin-bottom: 50px;
     color: #77777E;
+    line-height: 1.6;
  /*    padding-right: 20%;
     padding-left: 20%; */
 }
@@ -929,8 +931,8 @@ Project Page */
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 30px;
-    margin-top: 20px;
+   /*  margin-bottom: 30px;
+    margin-top: 20px; */
 }
 
  .paragraph-research p{
@@ -1051,8 +1053,8 @@ Project Page */
     font-size: 1.5rem; 
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    /* margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 
@@ -1212,7 +1214,7 @@ blockquote {
     color: #525253;
     font-size: 1.5rem;
     font-weight: bold;
-    line-height: 1.8;
+    line-height: 1;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -1325,8 +1327,8 @@ blockquote {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+   /*  margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 #project1-persona p{
@@ -1379,8 +1381,8 @@ blockquote {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+   /*  margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 #project1-scenario p{
@@ -1423,8 +1425,8 @@ blockquote {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  /*   margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 #project2-system p{
@@ -1551,7 +1553,7 @@ blockquote {
     color: #525253;
     font-size: 1.5rem;
     font-weight: bold;
-    line-height: 1.8;
+    line-height: 1;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -1632,8 +1634,8 @@ blockquote {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+   /*  margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 #project2-final p{
@@ -1705,9 +1707,9 @@ blockquote {
     color: #525253;
     font-size: 1.5rem;
     font-weight: bold;
-    line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    line-height: 0.8;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #project1-visual p{
@@ -1759,8 +1761,8 @@ blockquote {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  /*   margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 #project2-wireframes p{
@@ -2258,6 +2260,7 @@ blockquote{
   #project1-2{
     padding-right: 10%;
     padding-left: 10%;
+    margin-bottom: 20px;
 }
 #project1{
     padding-right: 10%;
@@ -2285,7 +2288,7 @@ blockquote{
    /*    padding-left: 5%;
       padding-right: 5%; */
   /*     padding-bottom: 5%; */
-      line-height: 1.8;
+      line-height: 1.6;
     }
 
     #about-us{
@@ -2296,6 +2299,7 @@ blockquote{
     
     #about-us h1{
             font-size: 2.8rem;
+            margin-bottom: 20px;
           /*   padding-left: 5%;
             padding-right: 5%; */
            /*  margin-top:0; */
@@ -2317,7 +2321,7 @@ blockquote{
     }
     #about-experience h1 {
         font-size: 2.5rem;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       /*   padding-left: 2%; */
     }
     #about-experience h3 {
@@ -2357,10 +2361,10 @@ blockquote{
     font-size: 2.8rem;
 }
 #project1 p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 #project2 p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 
@@ -2403,9 +2407,13 @@ blockquote{
     font-size: 1.1rem;
 }
  .projects-image img {
-    max-width: 230px;
-    max-height: 230px;
+    max-width: 240px;
+    max-height: 240px;
 } 
+
+.about-image {
+    margin-top: 25px;
+}
 
 .about-image img {
     max-width: 280px;
