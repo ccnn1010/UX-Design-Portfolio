@@ -245,7 +245,16 @@ body p{
 /* https://codepen.io/jaabert/pen/gObMGBV */
 
 #workflow{
-    background-color: rgba(238, 241, 241, 0.4); 
+    background-color: rgba(238, 241, 241, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#process-explanation{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .design-thinking h2{
@@ -1145,8 +1154,8 @@ blockquote {
     text-align: center;
     font-size: 1.1rem;
     color: #959599;
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .user-img{
@@ -2023,6 +2032,7 @@ blockquote {
     max-width: 150px;
     max-height: 150px;
 }
+
 #about-experience p {
     font-size: 1rem;
     line-height: 1.8rem;
@@ -2175,7 +2185,7 @@ blockquote{
     #home h1{
         text-align: start;
         font-size: 3rem;
-        padding-left: 5%;
+        /* padding-left: 5%; */
         padding-right: 5%;
         margin-top: 40px;
   }
@@ -2183,7 +2193,7 @@ blockquote{
   #home p{
     text-align: start;
     font-size: 1.8rem;
-    padding-left: 5%;
+ /*    padding-left: 5%; */
     padding-right: 5%;
     line-height: 2.7rem;
     margin-top: 20px;
@@ -2204,29 +2214,29 @@ blockquote{
     font-size: 4rem;
 }
 
-  .home-container {
+.home-container {
     margin-top: 120px;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .home-image img {
     max-width: 280px;
     max-height: 280px;
 }
-.design-thinking {
-    padding-left: 10%;
-    padding-right: 10%;
-}
+/* .design-thinking {
+    padding-left: 15%;
+    padding-right: 15%;
+} */
 .design-thinking p {
     line-height: 2.2rem;
     padding-top: 0;
     font-size: 1.3rem;
-   /*  padding-bottom: 20px; */
+    padding-bottom: 20px; 
 }
 .design-image img {
     max-width: 650px;
     max-height: 650px;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-bottom: 150px;
   /*   margin-top: 0; */
 }
@@ -2235,9 +2245,26 @@ blockquote{
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
   }
+#workflow{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#process-explanation{
+    padding-left: 10%;
+    padding-right: 10%;
+}
   #project1-2{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#project1{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#project2{
+    padding-right: 10%;
+    padding-left: 10%;
 }
     
 
@@ -2257,8 +2284,8 @@ blockquote{
     }
 
     #about-us{
-        padding-right: 5%;
-        padding-left: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
     }
         
     
@@ -2278,8 +2305,8 @@ blockquote{
     }
 
     #about-experience{
-        padding-right: 5%;
-        padding-left: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -2518,14 +2545,14 @@ blockquote{
     font-size: 1.2rem;
 }
 #project-home{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin-top: 80px;
     margin-bottom: 80px;
 }
 #project2-home{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -2574,15 +2601,15 @@ blockquote{
 }
 
 #project1-introduction{
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-top: 80px;
-        margin-bottom: 80px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #project1-research{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
   /*   margin-top: 200px;
     margin-bottom: 80px; */
 }
@@ -2608,8 +2635,8 @@ blockquote{
 }
 
 #project2-research{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -2634,8 +2661,8 @@ blockquote{
 }
 
 #project2-system{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -2645,8 +2672,8 @@ blockquote{
 }
 
 #project2-wireframes{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -2663,8 +2690,8 @@ blockquote {
 }
 
 #project1-persona{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -2690,8 +2717,8 @@ blockquote {
 
 
 #project1-scenario{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -2709,8 +2736,8 @@ blockquote {
 }
 
 #project1-wireframes{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -2719,8 +2746,8 @@ blockquote {
 }
 
 #project1-visual{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -2735,8 +2762,8 @@ blockquote {
 #project1-final{
     margin-top: 80px;
     margin-bottom: 80px;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 #project1-final h1 {
     font-size: 2.5rem;
@@ -2748,8 +2775,8 @@ blockquote {
 #project2-final{
     margin-top: 80px;
     margin-bottom: 80px;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 #project2-final h1 {
     font-size: 2.5rem;
@@ -2763,8 +2790,8 @@ blockquote {
 }
 
 #project1-conclusion{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -2803,8 +2830,8 @@ blockquote {
 /*     line-height: 2.7rem; */
 }
 .designThinking-heading p{
-    padding-right: 25%;
-    padding-left: 25%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 
