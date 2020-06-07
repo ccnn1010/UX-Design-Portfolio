@@ -1957,10 +1957,18 @@ blockquote {
         margin-top: 20px;
         font-size: 2rem;
     }
+    #project1 p {
+       line-height: 1.4;
+       font-size: 1.2rem;
+    }
     #project2 h1 {
         margin-top: 20px;
         font-size: 2rem;
     }
+    #project2 p {
+        line-height: 1.4;
+        font-size: 1.2rem;
+     }
     .logo-image img {
         max-width: 200px;
         max-height: 200px;
