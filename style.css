@@ -1115,7 +1115,7 @@ Project Page */
     padding: 0;
 }
 
-blockquote {
+/* blockquote {
     align-items: center;
     background: #f9f9f9;
     border-left: 2px solid #ccc;
@@ -1139,6 +1139,46 @@ blockquote {
     margin-right: 20px;
     vertical-align: -1rem;
   }
+ */
+
+
+ blockquote{
+    font-size: 1.3rem;
+    font-weight: bold;
+    width:100%;
+    margin:50px auto;
+    font-family:inherit;
+    font-style:italic;
+    color: #959599; 
+    padding:1.2em 30px 1.2em 75px;
+    border-left:5px solid #85D7CB;
+    border-radius: 10px;
+    line-height:1.6;
+    position: relative;
+    background:rgba(228, 231, 231, 0.37);
+  }
+  
+  blockquote::before{
+    font-family:inherit;
+    content: "\201C";
+    color:#85D7CB;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+  blockquote::after{
+    content: '';
+  }
+  
+ /*  blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  } */
 
   .italic-info{
       font-style: italic;
@@ -2706,12 +2746,15 @@ blockquote{
 }
 
 
-blockquote {
+/* blockquote {
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 1.8rem;
-}
-
+} */
+blockquote{
+    width:60%;
+    font-size: 1.5rem;
+  }
 #project1-persona{
     padding-right: 10%;
     padding-left: 10%;
