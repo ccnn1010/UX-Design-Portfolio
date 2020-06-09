@@ -2263,7 +2263,7 @@ blockquote{
   
 
   .fullstop {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .home-container {
@@ -2729,6 +2729,10 @@ blockquote{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+#project2-system h1{
+    font-size: 2.5rem;
+  /*   margin-bottom: 25px; */
+}
 #project2-system p{
     font-size: 1.3rem;
     margin-bottom: 100px;
@@ -2739,6 +2743,9 @@ blockquote{
     padding-left: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+#project2-wireframes h1 {
+    font-size: 2.5rem;
 }
 #project2-wireframes p {
     font-size: 1.3rem;
