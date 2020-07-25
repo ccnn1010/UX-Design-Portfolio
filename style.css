@@ -93,7 +93,7 @@ body p{
         font-weight: bold;
         color: #525253;
         font-size: 2.2rem;
-        margin-top: 50px;
+        margin-top: 60px;
    /*   text-decoration: underline wavy; 
         text-decoration-color: #85D7CB; */
 }
@@ -103,7 +103,7 @@ body p{
     color: rgb(119, 119, 126);
     font-size: 1.5rem;
     line-height: 1.8;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -656,6 +656,33 @@ Project Page */
     border-color: transparent;
     text-decoration: none;
 }
+
+.logo-image-1{ 
+    display: flex;
+    justify-content: center;
+} 
+
+
+ .logo-image-1 img{
+    align-items: center;
+    margin-top: 50px;
+    transition: transform 2s, 1s ease-in-out;
+    cursor: pointer;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 20px;
+}  
+
+
+.logo-image-1 img:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  }
+
+
+
+
 
 
 .logo-image{ 
@@ -1933,7 +1960,7 @@ Project Page */
     
     #home h1 {
         font-size: 1.8rem;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     #home p {
         margin-bottom: 20px;
@@ -1977,10 +2004,10 @@ Project Page */
        /*  margin-top: 12px; */
     }
     .button1 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .button2 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .button3 {
@@ -2014,14 +2041,15 @@ Project Page */
         max-height: 200px;
     }
     #contact h2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
     }
     .social-icons p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .box-3 h4 {
-       font-size: 1.2rem;
-        margin-bottom: 40px;
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
     .copyright h6{
         font-size: 0.9rem;
@@ -2066,12 +2094,18 @@ Project Page */
 }
 .wireframeButton {
     margin-top: 20px;
+    margin-bottom: 60px;
     /* margin-bottom: 80px; */
 }
+
 .wireframeButton a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.social-icons {
+    margin-top: 0; 
+}
+
 #about-us p {
     font-size: 1rem;
     margin-bottom: -10px;
@@ -2534,6 +2568,16 @@ blockquote{
 .logo {
     margin-left: 30px;
 }
+.logo-image-1 img{
+    margin-top: 80px;
+    max-width: 380px;
+    max-height: 250px;
+    margin-bottom: 80px;
+  /*   margin-top: 120px;
+    max-width: 450px;
+    max-height: 300px;  */
+}  
+
 .nav-link{
     font-size: 1.5rem;
 }
