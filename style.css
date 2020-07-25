@@ -1271,7 +1271,7 @@ Project Page */
 
   
 #project1-conclusion{
-    background-color: rgba(238, 241, 241, 0.4); 
+   /*  background-color: rgba(238, 241, 241, 0.4);  */
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -1519,7 +1519,7 @@ Project Page */
 
 
 #project1-wireframes{
-    /* background-color: #EEF1F1;  */
+    background-color: rgba(238, 241, 241, 0.4); 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -1542,6 +1542,58 @@ Project Page */
     line-height: 1.8;
     margin-bottom: 80px;
    /*  padding-top: 20px; */
+}
+
+
+#project1-paperPrototype{
+    /* background-color: #EEF1F1;  */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 30px;
+  /*   height:100%;
+    width: 100%; */
+}
+
+#project1-paperPrototype h1{
+    color: #525253;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#project1-paperPrototype p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+   /*  padding-top: 20px; */
+}
+
+.paperPrototype-feedback p {
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.paperPrototype-feedback li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;  
+}
+
+.paperPrototype-feedback ul {
+    margin-top: 20px;
+    margin-bottom: 50px;  
+}
+.paperPrototype-feedback h4 {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 /* .wireframe-image{ 
@@ -1608,7 +1660,7 @@ Project Page */
 
 
 #project1-final{
-    /* background-color: #EEF1F1;  */
+    background-color: rgba(238, 241, 241, 0.4); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1764,7 +1816,7 @@ Project Page */
 }
 
 #project1-visual{
-    background-color: rgba(238, 241, 241, 0.4); 
+    /* background-color: rgba(238, 241, 241, 0.4);  */
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -2199,6 +2251,10 @@ blockquote{
     font-size: 1rem;
     line-height: 1.8;
 }
+#project1-paperPrototype p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
 #project1-visual p {
     font-size: 1rem;
     line-height: 1.8;
@@ -2260,6 +2316,9 @@ blockquote{
     font-size: 1.2rem;
 }
 .designThinking-heading p {
+    font-size: 1rem;
+}
+.paperPrototype-feedback li {
     font-size: 1rem;
 }
 
@@ -2861,6 +2920,15 @@ blockquote{
 #project1-wireframes h1 {
     font-size: 2.5rem;
 }
+#project1-paperPrototype{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#project1-paperPrototype h1 {
+    font-size: 2.5rem;
+}
 
 #project1-visual{
     padding-right: 10%;
@@ -2930,6 +2998,9 @@ blockquote{
     margin-bottom: 80px;
    }
    #project1-wireframes p {
+    font-size: 1.3rem;
+}
+#project1-paperPrototype p {
     font-size: 1.3rem;
 }
 #project1-final h6 {
