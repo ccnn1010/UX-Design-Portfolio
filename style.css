@@ -592,7 +592,7 @@ Project Page */
 
 
 #project1{
-    background-color: rgba(255, 212, 220, 0.20);
+    background-color: rgba(255, 212, 220, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -710,7 +710,7 @@ Project Page */
 
   
 #project2{
-    background-color: rgba(133, 215, 203, 0.20);
+    background-color: rgba(133, 215, 203, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2379,8 +2379,8 @@ blockquote{
     padding-bottom: 20px; 
 }
 .design-image img {
-    max-width: 650px;
-    max-height: 650px;
+    max-width: 550px;
+    max-height: 550px;
     margin-bottom: 90px; 
     /* margin-top: 90px;
     
