@@ -592,7 +592,7 @@ Project Page */
 
 
 #project1{
-    background-color: rgba(255, 212, 220, 0.712);
+    background-color: rgba(255, 212, 220, 0.20);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -710,7 +710,7 @@ Project Page */
 
   
 #project2{
-    background-color: rgba(133, 215, 203, 0.6);
+    background-color: rgba(133, 215, 203, 0.20);
     display: flex;
     justify-content: center;
     align-items: center;
