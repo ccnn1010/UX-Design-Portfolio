@@ -2049,7 +2049,7 @@ Project Page */
     font-size: 1.2rem;
     line-height: 1.8;
     font-weight: bold;
-    margin-bottom: 30px;
+   /*  margin-bottom: 30px; */
     margin-top: 30px;
 }
 #dailyUi-visual h3{
