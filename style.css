@@ -995,8 +995,8 @@ Project Page */
 
 #contact h2{
     text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 50px;
+    font-size: 1.2rem;
+ /*    margin-bottom: 50px; */
     color: #77777E;
     line-height: 1.6;
  /*    padding-right: 20%;
@@ -1015,7 +1015,7 @@ Project Page */
 .box-3 h4{
     margin-top: -20px;
     color: #77777E;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .social-icons{
@@ -1025,12 +1025,12 @@ Project Page */
 }
 .social-icons p{
     font-family: inherit;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .fa {
   /*   padding: 10px 15px 5px; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:#525253;
     padding-bottom: 1%;
     
@@ -1043,7 +1043,7 @@ Project Page */
 
 .fab {
    /*  padding: 10px 15px 5px; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:#525253;
     padding-bottom: 1%;
     
@@ -1058,7 +1058,7 @@ Project Page */
 
 .far {
    /*  padding: 10px 15px 5px; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #525253;
 }
 
