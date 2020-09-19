@@ -2818,23 +2818,23 @@ Project Page */
        /*  margin-top: 12px; */
     }
     .button1 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .button2 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .button3 {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
     .button4 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .button5 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .button6 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     #project1 h1 {
         margin-top: 20px;
@@ -2965,7 +2965,7 @@ Project Page */
 }
 .wireframeButton {
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     /* margin-bottom: 80px; */
 }
 
