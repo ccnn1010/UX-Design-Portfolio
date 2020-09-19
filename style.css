@@ -4260,7 +4260,7 @@ blockquote{
   @media (min-width:770px) and (max-height: 1883px)  {
     video{
         border-style: none;
-        height: 450px;
+        height:1000px;
         width: 770px;
         margin-top: 100px;
         margin-bottom: 150px;
