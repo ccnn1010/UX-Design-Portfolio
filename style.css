@@ -1310,6 +1310,8 @@ Project Page */
 #project3-research li {
     color: #525253;
     font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project3-brief h1{
@@ -1672,7 +1674,8 @@ Project Page */
   
   .counter li {
     counter-increment: step-counter;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .counter li::before {
@@ -2661,7 +2664,7 @@ Project Page */
 #project3-final h3{
     text-align: left;
     color: #525253;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: bold;
     line-height: 1.8;
    /*  margin-top: 100px;
@@ -4181,6 +4184,10 @@ blockquote{
 }
 #project3-final li {
     font-size: 1.3rem;
+}
+#project3-final h3 {
+    line-height: 1.8;
+    font-size: 1.8rem;
 }
 .affinity-image{
     padding-left: 5%;
