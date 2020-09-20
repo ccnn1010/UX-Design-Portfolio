@@ -1239,6 +1239,7 @@ Project Page */
 #project2-research li {
     color: #525253;
     font-size: 1.2rem;
+    line-height: 1.8;
 }
 
 .project2-brief h1{
@@ -1312,6 +1313,7 @@ Project Page */
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 1.8;
 }
 
 .project3-brief h1{
@@ -1662,6 +1664,7 @@ Project Page */
      color: #525253;
      font-size: 1.2rem;
      font-style: italic;
+     line-height: 1.8;
  }
 
  .counter {
@@ -2965,7 +2968,7 @@ Project Page */
 }
 .wireframeButton {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     /* margin-bottom: 80px; */
 }
 
