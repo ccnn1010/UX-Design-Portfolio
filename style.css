@@ -103,6 +103,8 @@ body p{
         text-decoration-color: #85D7CB; */
 }
 
+
+
 #home p {
     text-align: center;
     color: rgb(119, 119, 126);
@@ -110,7 +112,6 @@ body p{
     line-height: 1.8;
     margin-bottom: 30px;
 }
-
 
 
 .home-image{ 
@@ -902,6 +903,7 @@ Project Page */
     color: #404042;
     font-weight: bold;
     margin-bottom: 40px;
+
    } 
 
 
@@ -3597,7 +3599,7 @@ blockquote{
 .logo-image-1 img{
     margin-top: 80px;
     max-width: 350px;
-    max-height: 250px;
+    max-height: 220px;
     margin-bottom: 80px;
   /*   margin-top: 120px;
     max-width: 450px;
@@ -3606,7 +3608,7 @@ blockquote{
 .logo-image-2 img{
     margin-top: 80px;
     max-width: 350px;
-    max-height: 250px;
+    max-height: 220px;
     margin-bottom: 80px;
   /*   margin-top: 120px;
     max-width: 450px;
@@ -3615,7 +3617,7 @@ blockquote{
 .logo-image-3 img{
     margin-top: 80px;
     max-width: 350px;
-    max-height: 250px;
+    max-height: 220px;
     margin-bottom: 80px;
   /*   margin-top: 120px;
     max-width: 450px;
